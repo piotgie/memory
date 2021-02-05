@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 1px;
+    transition: transform .3s;
+    margin: 10px 100px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 10px 100px;
+    padding: 10px;
+}
+
+#result {
+    font-size: 40px;
+    margin: 20px;
+}
+
+img:hover {
+    transform: scale(0.98);
+}
+
